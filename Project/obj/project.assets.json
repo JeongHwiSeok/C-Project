@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\j9607\\Desktop\\C-Project\\Project\\Project.csproj",
-      "projectName": "Project",
-      "projectPath": "C:\\Users\\j9607\\Desktop\\C-Project\\Project\\Project.csproj",
+      "projectUniqueName": "C:\\Users\\j9607\\Desktop\\C-Project\\Project\\Class 4th.csproj",
+      "projectName": "Class 4th",
+      "projectPath": "C:\\Users\\j9607\\Desktop\\C-Project\\Project\\Class 4th.csproj",
       "packagesPath": "C:\\Users\\j9607\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\j9607\\Desktop\\C-Project\\Project\\obj\\",
       "projectStyle": "PackageReference",

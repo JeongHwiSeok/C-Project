@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project", "Project.csproj", "{6208172D-945F-4A33-B86C-B9C071745B38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Class", "..\Project2\First Class.csproj", "{E2416045-1122-44C4-AF92-3275E250B523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class 1st", "..\Project2\Class 1st.csproj", "{E2416045-1122-44C4-AF92-3275E250B523}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Second Class", "..\Second Class\Second Class.csproj", "{7B0053B0-8DCC-4D0C-B800-8364CA8257FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class 2nd", "..\Second Class\Class 2nd.csproj", "{7B0053B0-8DCC-4D0C-B800-8364CA8257FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class 3th", "..\Class 3th\Class 3th.csproj", "{39D0CB87-2F28-4452-A70C-0CB535B501A2}"
 EndProject
