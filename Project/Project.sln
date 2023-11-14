@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project", "Project.csproj", "{6208172D-945F-4A33-B86C-B9C071745B38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class 4th", "Class 4th.csproj", "{6208172D-945F-4A33-B86C-B9C071745B38}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class 1st", "..\Project2\Class 1st.csproj", "{E2416045-1122-44C4-AF92-3275E250B523}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class 2nd", "..\Second Class\Class 2nd.csproj", "{7B0053B0-8DCC-4D0C-B800-8364CA8257FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class 3th", "..\Class 3th\Class 3th.csproj", "{39D0CB87-2F28-4452-A70C-0CB535B501A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class 3th", "..\Class 3th\Class 3th.csproj", "{39D0CB87-2F28-4452-A70C-0CB535B501A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class 5th", "..\Class 5th\Class 5th.csproj", "{E1A48F35-02D1-4511-A4A3-4853AC007BBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{39D0CB87-2F28-4452-A70C-0CB535B501A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D0CB87-2F28-4452-A70C-0CB535B501A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D0CB87-2F28-4452-A70C-0CB535B501A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A48F35-02D1-4511-A4A3-4853AC007BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A48F35-02D1-4511-A4A3-4853AC007BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A48F35-02D1-4511-A4A3-4853AC007BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A48F35-02D1-4511-A4A3-4853AC007BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

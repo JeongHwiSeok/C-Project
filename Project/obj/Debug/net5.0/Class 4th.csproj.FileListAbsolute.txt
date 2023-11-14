@@ -1,0 +1,16 @@
+C:\Users\j9607\Desktop\C-Project\Project\bin\Debug\net5.0\Class 4th.exe
+C:\Users\j9607\Desktop\C-Project\Project\bin\Debug\net5.0\Class 4th.deps.json
+C:\Users\j9607\Desktop\C-Project\Project\bin\Debug\net5.0\Class 4th.runtimeconfig.json
+C:\Users\j9607\Desktop\C-Project\Project\bin\Debug\net5.0\Class 4th.runtimeconfig.dev.json
+C:\Users\j9607\Desktop\C-Project\Project\bin\Debug\net5.0\Class 4th.dll
+C:\Users\j9607\Desktop\C-Project\Project\bin\Debug\net5.0\ref\Class 4th.dll
+C:\Users\j9607\Desktop\C-Project\Project\bin\Debug\net5.0\Class 4th.pdb
+C:\Users\j9607\Desktop\C-Project\Project\obj\Debug\net5.0\Class 4th.csproj.AssemblyReference.cache
+C:\Users\j9607\Desktop\C-Project\Project\obj\Debug\net5.0\Class 4th.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j9607\Desktop\C-Project\Project\obj\Debug\net5.0\Class 4th.AssemblyInfoInputs.cache
+C:\Users\j9607\Desktop\C-Project\Project\obj\Debug\net5.0\Class 4th.AssemblyInfo.cs
+C:\Users\j9607\Desktop\C-Project\Project\obj\Debug\net5.0\Class 4th.csproj.CoreCompileInputs.cache
+C:\Users\j9607\Desktop\C-Project\Project\obj\Debug\net5.0\Class 4th.dll
+C:\Users\j9607\Desktop\C-Project\Project\obj\Debug\net5.0\ref\Class 4th.dll
+C:\Users\j9607\Desktop\C-Project\Project\obj\Debug\net5.0\Class 4th.pdb
+C:\Users\j9607\Desktop\C-Project\Project\obj\Debug\net5.0\Class 4th.genruntimeconfig.cache
