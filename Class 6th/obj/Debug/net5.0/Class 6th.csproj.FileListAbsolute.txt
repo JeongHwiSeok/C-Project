@@ -1,0 +1,16 @@
+C:\Users\j9607\Desktop\C-Project\Class 6th\bin\Debug\net5.0\Class 6th.exe
+C:\Users\j9607\Desktop\C-Project\Class 6th\bin\Debug\net5.0\Class 6th.deps.json
+C:\Users\j9607\Desktop\C-Project\Class 6th\bin\Debug\net5.0\Class 6th.runtimeconfig.json
+C:\Users\j9607\Desktop\C-Project\Class 6th\bin\Debug\net5.0\Class 6th.runtimeconfig.dev.json
+C:\Users\j9607\Desktop\C-Project\Class 6th\bin\Debug\net5.0\Class 6th.dll
+C:\Users\j9607\Desktop\C-Project\Class 6th\bin\Debug\net5.0\ref\Class 6th.dll
+C:\Users\j9607\Desktop\C-Project\Class 6th\bin\Debug\net5.0\Class 6th.pdb
+C:\Users\j9607\Desktop\C-Project\Class 6th\obj\Debug\net5.0\Class 6th.csproj.AssemblyReference.cache
+C:\Users\j9607\Desktop\C-Project\Class 6th\obj\Debug\net5.0\Class 6th.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j9607\Desktop\C-Project\Class 6th\obj\Debug\net5.0\Class 6th.AssemblyInfoInputs.cache
+C:\Users\j9607\Desktop\C-Project\Class 6th\obj\Debug\net5.0\Class 6th.AssemblyInfo.cs
+C:\Users\j9607\Desktop\C-Project\Class 6th\obj\Debug\net5.0\Class 6th.csproj.CoreCompileInputs.cache
+C:\Users\j9607\Desktop\C-Project\Class 6th\obj\Debug\net5.0\Class 6th.dll
+C:\Users\j9607\Desktop\C-Project\Class 6th\obj\Debug\net5.0\ref\Class 6th.dll
+C:\Users\j9607\Desktop\C-Project\Class 6th\obj\Debug\net5.0\Class 6th.pdb
+C:\Users\j9607\Desktop\C-Project\Class 6th\obj\Debug\net5.0\Class 6th.genruntimeconfig.cache
