@@ -6,8 +6,8 @@ namespace Class_6th
     // S : 단일 책임 원칙
     // O : 개방 폐쇄 원칙
     // L : 
-    // I : 
-    // D : 
+    // I : 인터페이스 분리 원칙
+    // D : 의존관계 역전 원칙
     #endregion
     class Program
     {
@@ -33,6 +33,48 @@ namespace Class_6th
             //unitmanager.MoveCommand(marine1);
             //unitmanager.MoveCommand(firebet1);
             //unitmanager.MoveCommand(ghost1);
+            #endregion
+
+            #region ISP 5대 원칙
+            //Wraith wraith = new Wraith();
+
+            //wraith.Skill();
+            //wraith.Move();
+            //wraith.Attack();
+
+            //Valkyrie valkyrie = new Valkyrie();
+
+            //valkyrie.Move();
+            //valkyrie.Attack();
+
+            //Dropship dropship = new Dropship();
+
+            //dropship.Skill();
+            //dropship.Move();
+
+            //Battlecruiser battlecruiser = new Battlecruiser();
+
+            //battlecruiser.Skill();
+            //battlecruiser.Move();
+            //battlecruiser.Attack();
+
+            #endregion
+
+            #region DIP 5대 원칙
+
+            Axe axe = new Axe();
+            Rifle rifle = new Rifle();
+            Knife knife = new Knife();
+
+            Character player = new Character(100, knife);
+            player.Information();
+
+            player.ChangeWeapon(rifle);
+            player.Information();
+
+            player.ChangeWeapon(axe);
+            player.Information();
+
             #endregion
         }
     }
