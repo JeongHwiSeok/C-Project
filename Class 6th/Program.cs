@@ -35,6 +35,22 @@ namespace Class_6th
             //unitmanager.MoveCommand(ghost1);
             #endregion
 
+            #region LSP 5대 원칙
+            //Zergling zergling = new Zergling();
+
+            //zergling.Ground();
+            //zergling.AttackCommand();
+            //zergling.Move();
+
+            //Console.WriteLine();
+
+            //Mutalisk mutalisk = new Mutalisk();
+
+            //mutalisk.Fly();
+            //mutalisk.AttackCommand();
+            //mutalisk.Move();
+            #endregion
+
             #region ISP 5대 원칙
             //Wraith wraith = new Wraith();
 
@@ -62,18 +78,18 @@ namespace Class_6th
 
             #region DIP 5대 원칙
 
-            Axe axe = new Axe();
-            Rifle rifle = new Rifle();
-            Knife knife = new Knife();
+            //Axe axe = new Axe();
+            //Rifle rifle = new Rifle();
+            //Knife knife = new Knife();
 
-            Character player = new Character(100, knife);
-            player.Information();
+            //Character player = new Character(100, knife);
+            //player.Information();
 
-            player.ChangeWeapon(rifle);
-            player.Information();
+            //player.ChangeWeapon(rifle);
+            //player.Information();
 
-            player.ChangeWeapon(axe);
-            player.Information();
+            //player.ChangeWeapon(axe);
+            //player.Information();
 
             #endregion
         }

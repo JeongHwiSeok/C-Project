@@ -1,0 +1,16 @@
+C:\Users\j9607\Desktop\C-Project\Class 7th\bin\Debug\net5.0\Class 7th.exe
+C:\Users\j9607\Desktop\C-Project\Class 7th\bin\Debug\net5.0\Class 7th.deps.json
+C:\Users\j9607\Desktop\C-Project\Class 7th\bin\Debug\net5.0\Class 7th.runtimeconfig.json
+C:\Users\j9607\Desktop\C-Project\Class 7th\bin\Debug\net5.0\Class 7th.runtimeconfig.dev.json
+C:\Users\j9607\Desktop\C-Project\Class 7th\bin\Debug\net5.0\Class 7th.dll
+C:\Users\j9607\Desktop\C-Project\Class 7th\bin\Debug\net5.0\ref\Class 7th.dll
+C:\Users\j9607\Desktop\C-Project\Class 7th\bin\Debug\net5.0\Class 7th.pdb
+C:\Users\j9607\Desktop\C-Project\Class 7th\obj\Debug\net5.0\Class 7th.csproj.AssemblyReference.cache
+C:\Users\j9607\Desktop\C-Project\Class 7th\obj\Debug\net5.0\Class 7th.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j9607\Desktop\C-Project\Class 7th\obj\Debug\net5.0\Class 7th.AssemblyInfoInputs.cache
+C:\Users\j9607\Desktop\C-Project\Class 7th\obj\Debug\net5.0\Class 7th.AssemblyInfo.cs
+C:\Users\j9607\Desktop\C-Project\Class 7th\obj\Debug\net5.0\Class 7th.csproj.CoreCompileInputs.cache
+C:\Users\j9607\Desktop\C-Project\Class 7th\obj\Debug\net5.0\Class 7th.dll
+C:\Users\j9607\Desktop\C-Project\Class 7th\obj\Debug\net5.0\ref\Class 7th.dll
+C:\Users\j9607\Desktop\C-Project\Class 7th\obj\Debug\net5.0\Class 7th.pdb
+C:\Users\j9607\Desktop\C-Project\Class 7th\obj\Debug\net5.0\Class 7th.genruntimeconfig.cache
