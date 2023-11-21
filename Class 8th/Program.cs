@@ -127,6 +127,38 @@ namespace Class_8th
             //}
             #endregion
 
+            #region HashTable
+            //Hashtable hashTable = new Hashtable();
+
+            //// Key - Value
+            //hashTable.Add("Sword", 1000);
+            //hashTable.Add('A', 57.5f);
+
+            //foreach(DictionaryEntry pair in hashTable)
+            //{
+            //    Console.WriteLine("Key : " + pair.Key + " " + "Value : " + pair.Value);
+            //}
+
+            #endregion
+
+            #region Dictionary
+            //Dictionary<string, int> dictionary = new Dictionary<string, int>();
+
+            //dictionary.Add("MapleStory", 2003);
+            //dictionary.Add("League of Legend", 2011);
+            //dictionary.Add("MiniFighter", 2003);
+
+            //if(dictionary.ContainsKey("MapleStory"))
+            //{
+            //    Console.WriteLine("Key가 존재합니다.");
+            //}
+            
+            //foreach(var element in dictionary)
+            //{
+            //    Console.WriteLine(element);
+            //}
+            #endregion
+
             #endregion
         }
     }
