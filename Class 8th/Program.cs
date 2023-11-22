@@ -79,13 +79,32 @@ namespace Class_8th
 
             #region Random 클래스
             //Random random = new Random();
+            //int[] a = new int[43];
+            ////for (int i = 5; i > 0; i--)
+            ////{
+            ////    int rand = random.Next(0, i);
+            ////    Console.WriteLine("Game name : " + list[rand]);
+            ////    list.RemoveAt(rand);
 
-            //for(int i = 5; i > 0; i--)
+            ////}
+            //for (int i = 0; i < 5; i++)
             //{
-            //    int rand = random.Next(0, i);
-            //    Console.WriteLine("Game name : " + list[rand]);
-            //    list.RemoveAt(rand);
-
+            //    int rand = random.Next(1, 20);
+            //    if (a[rand] == 0)
+            //    {
+            //        a[rand]++;
+            //        Console.WriteLine(rand);
+            //    }
+            //}
+            //Console.WriteLine("");
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    int rand = random.Next(21, 43);
+            //    if (a[rand] == 0)
+            //    {
+            //        a[rand]++;
+            //        Console.WriteLine(rand);
+            //    }
             //}
             #endregion
 
@@ -152,7 +171,7 @@ namespace Class_8th
             //{
             //    Console.WriteLine("Key가 존재합니다.");
             //}
-            
+
             //foreach(var element in dictionary)
             //{
             //    Console.WriteLine(element);
