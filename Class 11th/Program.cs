@@ -5,52 +5,76 @@ namespace Class_11th
     class Program
     {
         const int size = 10;
-        static int low = 0;
-        static int high = size;
-        static int[] array = new int[size] {10,20,30,40,50,60,70,80,90,100};
+        static int[] array = new int[size] {6,5,11,13,27,55,66,10,28,7};
 
         static void BinarySearch(int middle, int search)
         {
-            if(array[middle] == search)
+            Array.Sort(array); // 배열을  오름차순으로 정렬하는 함수
+            #region 과제
+            //if (array[middle] == search)
+            //{
+            //    Console.WriteLine(search + "는 " + middle + "번째 입니다.");
+            //}
+            //else if (array[middle] > search)
+            //{
+            //    if (array[middle - 1] < search && middle > 0)
+            //    {
+            //        Console.WriteLine("값이 존재하지 않습니다");
+            //    }
+            //    else if (array[0] > search)
+            //    {
+            //        Console.WriteLine("값이 존재하지 않습니다");
+            //    }
+            //    else
+            //    {
+            //        high = middle;
+            //        middle = (low + high) / 2;
+            //        BinarySearch(middle, search);
+            //    }
+            //}
+            //else
+            //{
+            //    if (array[middle + 1] > search && middle < size - 1)
+            //    {
+            //        Console.WriteLine("값이 존재하지 않습니다");
+            //    }
+            //    else if (array[size - 1] < search)
+            //    {
+            //        Console.WriteLine("값이 존재하지 않습니다");
+            //    }
+            //    else
+            //    {
+            //        low = middle;
+            //        middle = (low + high) / 2;
+            //        BinarySearch(middle, search);
+            //    }
+            //}
+            //low = 0;
+            //high = size;
+            #endregion
+            #region 수업
+            int low = 0;
+            int high = size - 1;
+            while (low <= high)
             {
-                Console.WriteLine(search + "는 " + middle + "번째 입니다.");
-            }
-            else if(array[middle] > search)
-            {
-                if(array[middle-1] < search && middle > 0)
+                middle = (low + high) / 2;
+
+                if (array[middle] == search)
                 {
-                    Console.WriteLine("값이 존재하지 않습니다");
+                    Console.WriteLine("array[middle] : " + array[middle]);
+                    return;
                 }
-                else if(array[0] > search)
+                else if (array[middle] > search)
                 {
-                    Console.WriteLine("값이 존재하지 않습니다");
+                    high = middle - 1;
                 }
                 else
                 {
-                    high = middle;
-                    middle = (low + high) / 2;
-                    BinarySearch(middle, search);
+                    low = middle + 1;
                 }
             }
-            else
-            {
-                if(array[middle+1] > search && middle < size-1)
-                {
-                    Console.WriteLine("값이 존재하지 않습니다");
-                }
-                else if(array[size-1] < search)
-                {
-                    Console.WriteLine("값이 존재하지 않습니다");
-                }
-                else
-                {
-                    low = middle;
-                    middle = (low + high) / 2;
-                    BinarySearch(middle, search);
-                }
-            }
-            low = 0;
-            high = size;
+            Console.WriteLine("Not value Found");
+            #endregion
         }
 
         static void Main(string[] args)
@@ -68,8 +92,6 @@ namespace Class_11th
                 BinarySearch(size / 2, n);
                 n = Int32.Parse(Console.ReadLine());
             }
-            
-
             #endregion
         }
     }
