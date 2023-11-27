@@ -5,33 +5,38 @@ namespace Class_12th
     class Program
     {
         static public int[] array = new int[9] { 5, 3, 8, 4, 9, 1, 6, 2, 7 };
-        static void QuickSort(int[] array, int left, int right)
+        static int PivotSearch(int[] array, int left, int right)
         {
             int low = left+1;
             int high = right-1;
-            int pivot = left;
-            while(low < high)
+            int pivot = array[left];
+            while (low <= high)
             {
-                if(array[low] <= array[pivot])
+                while(low <= right-1 && array[low] < pivot)
                 {
                     low++;
                 }
-                else
+                while(high >= left && array[high] > pivot)
                 {
-                    if(array[high] >= array[pivot])
-                    {
-                        high--;
-                    }
-                    else
-                    {
-                        (array[low], array[high]) = (array[high], array[low]);
-                        low++;
-                        high--;
-                    }
+                    high--;
+                }
+                if(low <= high)
+                {
+                    (array[low], array[high]) = (array[high], array[low]);
                 }
             }
             (array[pivot], array[high]) = (array[high], array[pivot]);
             return high;
+        }
+
+        static void QuickSort(int[] array, int left, int right)
+        {
+            if(left < right)
+            {
+                int pivot = PivotSearch(array, left, right);
+                QuickSort(array, left, pivot - 1);
+                QuickSort(array, pivot + 1, right);
+            }
         }
 
         static void Main(string[] args)
@@ -44,7 +49,6 @@ namespace Class_12th
             // 시간 복잡도 : O(log n)
             #endregion
 
-            
             // 배열의 첫번째를 pivot으로 지정
             // pivot을 제외한 나머지중 제일 좌측을 Left, 제일 우측을 Right로
 
