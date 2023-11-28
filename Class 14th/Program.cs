@@ -1,11 +1,10 @@
 ﻿using System;
+using System.IO;
 
 namespace Class_14th
 {
     class Program
     {
-
-
         static void Main(string[] args)
         {
             #region 그래프
@@ -40,7 +39,28 @@ namespace Class_14th
             #endregion
 
             #region 인접 행렬
-            // 
+
+            //int n = int.Parse(Console.ReadLine());
+            //int count = 5;
+
+            //AdjacencyMatrix<string> adjacencyMatrix = new AdjacencyMatrix<string>(n);
+
+            //StreamReader sr = new StreamReader(Console.OpenStandardInput());
+            //string[] vertexs = sr.ReadLine().Split(' ');
+
+            //for(int i = 0; i < count; i++)
+            //{
+            //    string[] edge = sr.ReadLine().Split(' ');
+            //    int x = int.Parse(edge[0]);
+            //    int y = int.Parse(edge[1]);
+
+            //    adjacencyMatrix.SetEdge(x, y);
+            //}
+
+            //adjacencyMatrix.Display();
+            #endregion
+
+            #region 인접 리스트
 
             #endregion
 
