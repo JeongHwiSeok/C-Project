@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Class_14th
+namespace Class_15th
 {
     class AdjacencyList
     {
@@ -37,6 +37,30 @@ namespace Class_14th
                     Console.Write(adjacencyList[i][j] + " -> ");
                 }
                 Console.WriteLine(" ");
+            }
+        }
+
+        public void BFS(int start)
+        {
+            bool[] visited = new bool[size];
+
+            Queue<int> q = new Queue<int>();
+            q.Enqueue(start);
+            visited[start] = true;
+
+            while(q.Count > 0)
+            {
+                int now = q.Dequeue();
+                Console.Write(now + " ");
+
+                for(int i = 0; i < adjacencyList[now].Count; i++)
+                {
+                    if(visited[adjacencyList[now][i]] == false)
+                    {
+                        visited[adjacencyList[now][i]] = true;
+                        q.Enqueue(adjacencyList[now][i]);
+                    }
+                }
             }
         }
     }
