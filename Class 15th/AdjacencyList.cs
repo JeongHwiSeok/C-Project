@@ -63,5 +63,50 @@ namespace Class_15th
                 }
             }
         }
+
+        public void DFS(int root)
+        {
+            bool[] visited = new bool[size];
+
+            #region 다른방법 - (visited 배열 처리 필요)
+            visited[root] = true;
+
+            Console.Write(root+ " ");
+
+            foreach(int index in adjacencyList[root])
+            {
+                if(visited[index] == false)
+                {
+                    DFS(index);
+                }
+            }
+
+            #endregion
+
+            // DFSearch(visited, root);
+        }
+
+        //private void DFSearch(bool[] visited, int now)
+        //{
+        //    if(visited[now] == true)
+        //    {
+        //        return;
+        //    }
+        //    else if (adjacencyList[now].Count == 0)
+        //    {
+        //        Console.Write(now + " ");
+        //        visited[now] = true;
+        //        return;
+        //    }
+        //    else
+        //    {
+        //        Console.Write(now + " ");
+        //        visited[now] = true;
+        //        for(int i = 0; i < adjacencyList[now].Count; i++)
+        //        {
+        //            DFSearch(visited, adjacencyList[now][i]);
+        //        }  
+        //    }
+        //}
     }
 }
